@@ -6,13 +6,13 @@ import java.text.DecimalFormat;
 public class Produtos {
 	private String nome;
 	private double valor;
-	private double desconto;
+	static double desconto = 0.25;
 
-	public Produtos(String nome, double valor, double desconto) {
+	public Produtos(String nome, double valor) {
 		super();
 		this.nome = nome;
 		this.valor = valor;
-		this.desconto = desconto;
+		
 	}
 
 	public String getNome() {
@@ -31,13 +31,6 @@ public class Produtos {
 		this.valor = valor;
 	}
 
-	public double getDesconto() {
-		return desconto;
-	}
-
-	public void setDesconto(double desconto) {
-		this.desconto = desconto;
-	}
 
 	// Metodos:
 	String calcularDesconto() {
