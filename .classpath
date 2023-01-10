@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="Seção 6"/>
 	<classpathentry kind="src" path="Datas"/>
 	<classpathentry kind="src" path="Composições"/>
+	<classpathentry kind="src" path="Composição"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
 		<attributes>
 			<attribute name="module" value="true"/>
