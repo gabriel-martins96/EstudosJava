@@ -6,6 +6,9 @@ private double valuePerHour;
 private Integer hours;
 
 //Construtor
+public HourContract() {
+}
+
 public HourContract(Date date, double valuePerHour, Integer hours) {
 	this.date = date;
 	this.valuePerHour = valuePerHour;
