@@ -1,3 +1,4 @@
+package exemplo_worker;
 import java.util.Date;
 
 public class HourContract {

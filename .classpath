@@ -2,10 +2,11 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Fundamentos"/>
-	<classpathentry kind="src" path="Seção 6"/>
+	<classpathentry kind="src" path="Collections"/>
 	<classpathentry kind="src" path="Datas"/>
 	<classpathentry kind="src" path="Composições"/>
-	<classpathentry kind="src" path="Composição"/>
+	<classpathentry kind="src" path="Enum"/>
+	<classpathentry kind="src" path="ProjetoCompras"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
 		<attributes>
 			<attribute name="module" value="true"/>

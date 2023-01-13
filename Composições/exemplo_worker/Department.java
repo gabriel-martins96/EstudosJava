@@ -1,3 +1,4 @@
+package exemplo_worker;
 
 public class Department {
 private String name;
