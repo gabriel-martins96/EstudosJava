@@ -1,11 +1,11 @@
-package minha_tentativa;
+package cliente_compra;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Cliente {
 private String nome;
 private String telefone;
-
 
 //construtor
 public Cliente(String nome, String telefone) {

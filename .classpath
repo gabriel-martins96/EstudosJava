@@ -6,7 +6,8 @@
 	<classpathentry kind="src" path="Datas"/>
 	<classpathentry kind="src" path="Composições"/>
 	<classpathentry kind="src" path="Enum"/>
-	<classpathentry kind="src" path="ProjetoCompras"/>
+	<classpathentry kind="src" path="minhas_tentativas_exercicios"/>
+	<classpathentry kind="src" path="herança_polimorfismo"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
 		<attributes>
 			<attribute name="module" value="true"/>

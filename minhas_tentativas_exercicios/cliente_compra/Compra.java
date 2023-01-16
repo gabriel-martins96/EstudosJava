@@ -1,17 +1,14 @@
-package minha_tentativa;
+package cliente_compra;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Compra {
 	private Cliente comprador;
-	ArrayList<Item> itensComprados = new ArrayList();
+	//não declarar variáveis classes, mas sim interfaces
+	List<Item> itensComprados = new ArrayList<Item>();
 
 	
-	public Compra(Cliente comprador, ArrayList<Item> itensComprados) {
-		this.comprador = comprador;
-		this.itensComprados = itensComprados;
-	}
-
 	public Compra(Cliente cliente1) {
 		// TODO Auto-generated constructor stub
 	}
