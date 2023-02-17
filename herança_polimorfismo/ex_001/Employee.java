@@ -40,5 +40,6 @@ public class Employee {
 	//metodos
 	public double payment() {
 		
+		return hours * valuePerHour;
 	}
 }

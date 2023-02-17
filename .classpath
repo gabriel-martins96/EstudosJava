@@ -8,6 +8,10 @@
 	<classpathentry kind="src" path="Enum"/>
 	<classpathentry kind="src" path="minhas_tentativas_exercicios"/>
 	<classpathentry kind="src" path="herança_polimorfismo"/>
+	<classpathentry kind="src" path="Tratamento_De_Erros"/>
+	<classpathentry kind="src" path="arquivos"/>
+	<classpathentry kind="src" path="Interfaces"/>
+	<classpathentry kind="src" path="Minha_Tentativa_Interface_Fixação"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
 		<attributes>
 			<attribute name="module" value="true"/>
