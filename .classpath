@@ -12,6 +12,7 @@
 	<classpathentry kind="src" path="arquivos"/>
 	<classpathentry kind="src" path="Interfaces"/>
 	<classpathentry kind="src" path="Minha_Tentativa_Interface_Fixação"/>
+	<classpathentry kind="src" path="Generics"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-18">
 		<attributes>
 			<attribute name="module" value="true"/>

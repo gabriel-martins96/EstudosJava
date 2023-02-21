@@ -1,0 +1,38 @@
+Generics são invariantes
+
+List<Object> não é o supertipo de qualquer tipo de lista, exemplo:
+		List<Object> myObjs = new ArrayList<Object>();
+		List<Integer> myNumbers = new ArrayList<Integer>();
+		myObjs = myNumbers; // erro de compilação
+
+
+->Supertipo
+O supertipo de qualquer tipo de lista é List<?>. Este é um tipo curinga:
+		List<?> myObjs = new ArrayList<Object>();
+		List<Integer> myNumbers = new ArrayList<Integer>();
+		myObjs = myNumbers;
+		
+		
+->Métodos com tipo coringa:
+a) Só para percorrer:
+public class Program {
+public static void main(String[] args) {
+		List<Integer> myInts = Arrays.asList(5, 2, 10);
+		printList(myInts);
+}
+		public static void printList(List<?> list) {
+		for (Object obj : list) {
+		System.out.println(obj);
+}
+
+Não há como adicionar elementos a lista que foi instanciada. É o preço a se pagar.
+
+b) Generalização de métodos:
+Quando vamos generalizar um método, no exemplo foi com listas. Mesmo que tenhamos uma relação de super tipo usual Object -> Integer por exemplo, não iremos conseguir
+atuar. Precisaremos especificar que o tipo super mais extends de qual classe:
+
+public static double Area (List <? extends Shape> list { //Preciso dizer que extende shape, pois no for each poderá receber até algo que não é shape, mesmo com herança, o compilador não sabe
+for (Shape s : list) {																	// Pode ser de Shape e de qualquer outro subtipo de shape
+sum += s.area();
+} 
+		
